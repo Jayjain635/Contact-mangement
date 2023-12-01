@@ -1,38 +1,44 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.header {
+  background-color: rgb(255, 251, 44);
+  font-weight: 500;
+  border: 2px solid;
+  text-align: center;
+  height: 25px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formheader{
+  margin-left: 5px;
+  font-weight: 400;
+}
+.btn{
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.in{
+  margin-left: 4px;
+}
+.contact{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  border: 2px solid;
+  background-color: rgb(254, 244, 93);
+  margin-bottom: 2px;
+  margin-left: 12px;
+  margin-right: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+.contact-detail{
+margin-left: 5px;
+margin-right: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.contact-header{
+  /* margin-left: 10px;
+  margin-top: 5px; */
+  margin: 10px ;
 }
